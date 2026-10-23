@@ -32,7 +32,7 @@ A production-grade Python **Model Context Protocol (MCP)** server and decision-s
 
 ### [Autonomous SWE Developer Agent](https://github.com/Huighlet/autonomous-swe-agent)
 An intelligent multi-agent software engineering system capable of autonomous codebase exploration, AST symbol traversal, and iterative patch implementation with fine-tuned open weights.
-* **Stack:** Python, Gemma 31B, LoRA / PEFT Fine-Tuning, Multi-Agent Topology
+* **Stack:** Python, PyTorch, LoRA / PEFT Fine-Tuning, AST Traversal, Multi-Agent Systems
 
 ---
 
