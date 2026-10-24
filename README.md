@@ -19,7 +19,7 @@ All 9 flagship repositories are engineered as **complete, enterprise-grade platf
 
 ---
 
-## Flagship Systems Portfolio (240/240 Tests Passing)
+## Flagship Systems Portfolio (241/241 Tests Passing)
 
 ### I. Financial Core Infrastructure Suite
 
@@ -46,7 +46,7 @@ All 9 flagship repositories are engineered as **complete, enterprise-grade platf
 | System | Specialization & Enterprise Architecture | Throughput Benchmark | Verified Tests |
 | :--- | :--- | :--- | :--- |
 | **[`PulseStream-Engine`](https://github.com/Huighlet/PulseStream-Engine)** | Partitioned event streaming broker and append-only commit log platform. Implements deterministic CRC32 partition routing, monotonic 64-bit offsets, decentralized consumer group coordinator, point-in-time topic snapshot checkpoints (`/v1/topics/{topic}/snapshot`), consumer group partition lag tracking (`/v1/topics/{topic}/lag`), token-bucket rate limiter, Prometheus `/metrics`, Client SDK (`PulseStreamClient`), and 100-device IoT telemetry stream simulation (`examples/simulate_realtime_iot_telemetry.py`). | **506,088 reads/sec**<br>**106,929 appends/sec** | **31/31 Passed** |
-| **[`GeoMesh-Stream`](https://github.com/Huighlet/GeoMesh-Stream)** | Real-time geospatial telemetry & geofencing platform. Features Discrete Uniform Spatial Grid Indexing ($\mathcal{O}(1)$ AABB candidate pruning), Haversine distance, Ray-Casting Point-in-Polygon, great-circle dead-reckoning kinematics, geofence audit manifest export (`/v1/geofences/export`), point-in-time fleet state snapshot (`/v1/fleet/snapshot`), embedded Leaflet.js live map dashboard, token-bucket rate limiter, Prometheus `/metrics`, Client SDK (`GeoMeshClient`), and 50-van urban delivery fleet simulation (`examples/simulate_delivery_fleet.py`). | **509,862 spatial queries/sec**<br>**382,666 Haversine/sec** | **25/25 Passed** |
+| **[`GeoMesh-Stream`](https://github.com/Huighlet/GeoMesh-Stream)** | Real-time Ghana maritime vessel stream, collision avoidance & coastal geofence platform. Features Discrete Uniform Spatial Grid Indexing ($\mathcal{O}(1)$ AABB candidate pruning), Closest Point of Approach (CPA/TCPA) collision risk detection between commercial AIS tankers and artisanal fishing canoes, Ghana 6NM Inshore Exclusion Zone (IEZ) enforcement (Act 625), Guinea Current dead-reckoning search-and-rescue (SAR), geofence audit manifest export (`/v1/geofences/export`), point-in-time vessel fleet state snapshot (`/v1/fleet/snapshot`), embedded Gulf of Guinea live radar dashboard, token-bucket rate limiter, Prometheus `/metrics`, Client SDK (`GeoMeshClient`), and Ghana maritime simulation (`examples/simulate_ghana_maritime_mesh.py`). | **509,862 spatial queries/sec**<br>**382,666 Haversine/sec** | **26/26 Passed** |
 | **[`HyperQuery-LSM`](https://github.com/Huighlet/HyperQuery-LSM)** | Write-optimized Log-Structured Merge-Tree storage platform & Redis-compatible server. Features SkipList MemTable, binary WAL, Bloom filter SSTables, leveled compaction, Redis RESP2 protocol server with password AUTH (`requirepass`), point-in-time snapshot checkpointing (`SNAPSHOT` / `BGSAVE`), telemetry metrics (`METRICS` / `INFO`), pure-Python socket Client SDK (`HyperQueryClient`), and 1,000-operation high-throughput KV simulation harness (`examples/simulate_high_throughput_kv.py`). | **156,141 Bloom lookups/sec**<br>**90,959 SkipList inserts/sec** | **23/23 Passed** |
 
 ---
